@@ -111,6 +111,28 @@ header{
 	text-align: center;
 }
 
+input {
+    width: 63%;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #BDC2C9;
+	margin-bottom: 6px;
+	height: 2em;
+}
+label {
+    font-size: 16px;
+    font-weight: 500;
+    width: 35%;
+
+}
+a.button2{
+	background-color: #03ae7b;
+    margin-top: 5px;
+    color: #fff;
+    float: right;
+    padding: 0.5em 2em;
+    text-align: center;
+}
 
 /*Media Queries */
 
