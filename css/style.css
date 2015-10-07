@@ -72,7 +72,7 @@ h5{
 
 .contenedor{
 
-	padding: 2em 0.8em;
+	padding: 1em;
 }
 
 header{
@@ -112,31 +112,141 @@ header{
 }
 
 input {
+    width: 63%;
+    -webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border: 1px solid #BDC2C9;
-	height: 2.2em;
 	margin-bottom: 6px;
-	margin-left: 8px;
-	margin-top: 8px;
-    -webkit-border-radius: 4px;
-    width: 55%;
+	height: 2em;
 }
 label {
     font-size: 16px;
     font-weight: 500;
-    margin-top: 10px;
-    width: 40%;
+    width: 35%;
 
 }
 a.button2{
 	background-color: #03ae7b;
+    margin-top: 5px;
     color: #fff;
     float: right;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 0.5em 2.2em;
+    padding: 0.5em 2em;
     text-align: center;
+    margin-bottom: 15px;
+
 }
+
+h2.negro {
+    color: #000;
+    font-size: 19px;
+    padding-bottom: 8px;
+}
+input[type="radio"] {
+    width: 28px;
+    margin-left: -14px;
+}
+p.preguntas {
+    color: #000;
+}
+.personality p {
+    margin-left: -14px;
+    font-size: 14px;
+}
+
+.personality input {
+    width: 100%;
+    height: 61px;
+ }
+.personality input[type="checkbox"] {
+    width: 35px;
+    margin: -10px 0px 5px 0;
+    
+}
+col-xs-9.personality {
+    padding-left: 26px;
+}
+
+.col-xs-9.personality p {
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+
+
+/****login****/
+.login-campos{
+				margin-top: 2em;
+				margin-bottom: 2em;
+				text-align: center;
+			}
+	.login-campos input{
+		background-color: #35353f;
+		text-align: center;
+	}
+			
+			::-webkit-input-placeholder { 
+				background-color: #35353f;
+				color:#f4f4f4;
+				font-size: 18px;
+				font-weight: 400;
+				text-align: center;
+				 }
+			::-moz-placeholder { 
+				background-color: #35353f;
+				color:#f4f4f4;
+				font-size: 18px;
+				font-weight: 400;
+				text-align: center;
+				 } /* firefox 19+ */
+			:-ms-input-placeholder { 
+				background-color: #35353f;
+				color:#f4f4f4;
+				font-size: 18px;
+				font-weight: 400;
+				text-align: center;
+				 } /* ie */
+			input:-moz-placeholder { 
+				background-color: #35353f;
+				color:#f4f4f4;
+				font-size: 18px;
+				font-weight: 400;
+				text-align: center;
+				 }
+	
+	.login-button{
+		margin-top: 1.5em;
+	}
+	.login-button a{
+		background-color: #03ae7b;
+	    color: #fff;
+	    font-weight: 300;
+	    margin-left: 5px;
+	    margin-bottom: 2em;
+	    padding: 1em 5em;
+	    text-align: center;
+	    text-decoration: none;
+	}
+	.login-anexo{
+		padding: 1em 0;
+		text-align: center;
+	}
+	.login-anexo a{
+		margin-top: 20px;
+	}
+	.login-anexo1{
+		color:#03ae7b;
+		font-size: 18px;
+		margin-bottom: 1em;
+	}
+	.login-anexo2{
+		color:#fff;
+		font-weight: 300;
+		
+	}
+	#home{
+		padding:10em 0;
+	}
+/****fin login****/
 
 /*Media Queries */
 
