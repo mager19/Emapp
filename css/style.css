@@ -1,0 +1,128 @@
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+
+/* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
+@import url("../css/bootstrap/bootstrap.css");
+@import url("../css/bootstrap/bootstrap-theme.css");
+
+/* Fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+@font-face {
+    font-family: cora;
+    src: url(../fonts/CoraMedium.otf);
+}
+
+
+/* Font Awesome */
+@import url("../css/font-awesome.min.css");
+
+
+body{
+
+	color:#03ae7b;
+	font-family: 'cora';
+
+}
+
+h1{
+	
+	color:#fff;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1:before{
+
+	content: "\2630";
+    background-color: #fff;
+    color: #232323;
+    padding: 5px 7px;
+    border-radius: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+h2{
+	
+	font-size: 24px;
+	font-weight:500;
+}
+
+h3{
+
+	font-size: 16px;
+	text-align: center;
+	text-decoration: capitalize;
+}
+
+h5{
+	color:#cccccc;
+	font-weight: 300;
+	text-align: right;
+}
+
+
+.contenedor{
+
+	padding: 2em;
+}
+
+header{
+
+	background-color: #35353f;
+	padding: 2em 0em;
+
+}
+
+
+/* Contenido */
+
+.contenido{
+
+	background-color: #fff;
+}
+
+/* Buttons*/
+
+.buttons{
+	margin-left: -20px;
+}
+
+
+.buttons li{
+
+	display: inline-block;
+	padding-right: 1.1em;
+}
+
+.buttons li a{
+
+	background-color: #03ae7b;
+	color:#fff;
+	padding: 0.5em 2em;
+	text-align: center;
+}
+
+
+/*Media Queries */
+
+/* ---------------------------------------------------------------------- */
+/*  Version 768px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 768px) {	
+
+	.buttons{
+
+		text-align: center;
+	}
+
+}
