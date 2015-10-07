@@ -72,7 +72,7 @@ h5{
 
 .contenedor{
 
-	padding: 2em 1em;
+	padding: 2em 0.8em;
 }
 
 header{
@@ -112,25 +112,29 @@ header{
 }
 
 input {
-    width: 63%;
-    -webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border: 1px solid #BDC2C9;
+	height: 2.2em;
 	margin-bottom: 6px;
-	height: 2em;
+	margin-left: 8px;
+	margin-top: 8px;
+    -webkit-border-radius: 4px;
+    width: 55%;
 }
 label {
     font-size: 16px;
     font-weight: 500;
-    width: 35%;
+    margin-top: 10px;
+    width: 40%;
 
 }
 a.button2{
 	background-color: #03ae7b;
-    margin-top: 5px;
     color: #fff;
     float: right;
-    padding: 0.5em 2em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0.5em 2.2em;
     text-align: center;
 }
 
