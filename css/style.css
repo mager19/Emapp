@@ -161,6 +161,7 @@ input[type="radio"] {
 }
 p.preguntas {
     color: #000;
+    padding: 4px 0 0 5px;
 }
 .personality p {
     margin-left: -14px;
@@ -193,6 +194,12 @@ hr {
     margin: -10px 0px 5px -16px;
     height: 61px;
 }
+.skills p {
+    padding-top: 2px;
+}
+.skills input {
+    width: 100%;
+}
 /***Navegacion***/
 nav.nav-movil {
     position: absolute;
@@ -207,8 +214,25 @@ nav.nav-movil ul {
     padding-bottom: 20px;
     list-style-type: none;
 }
-
+.cerrar {
+    float: right;
+    font-size: 35px;
+    padding: 5px;
+    margin: -20px 10px;
+}
 /***fin Navegacio***/
+.profile {
+    background: transparent;
+    background-size: 100%;
+}
+body.profile {
+    background-image: url(../img/ventana.jpg);
+}
+.profile h1 {
+    font-size: 19px;
+    text-transform: capitalize;
+    padding-top: 6px;
+}
 /****login****/
 .login-campos{
 				margin-top: 2em;
@@ -284,7 +308,55 @@ nav.nav-movil ul {
 	}
 /****fin login****/
 
+/* Contenido icons*/
+#contenido-icons {
+	
+	margin-top: 2em;
+}
+#contenido-icons li{
+	display: inline-block;
+	list-style: none;
+	padding-right: 3.8em;
+	text-decoration: none;
+}
+#contenido-registro{
+	text-align: center;
+}
+#contenido-registro p {
+	color:#232323;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 1em;
+	
+}
+#contenido-registro a{
+	color:#232323;
+	margin-bottom: 2em;
+	text-align: center;
+}
+#contenido-button{
+	background-color: #03ae7b;
+	color:#fff!important;
+	padding: 0.5em 1em;
+	text-align: center;
+}
+#back{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
 /*Media Queries */
+
+/* ---------------------------------------------------------------------- */
+/*  Version 320px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 320px) {	
+	#contenido-icons li{
+	 	padding-right: 1em;
+	
+	}
+}
 
 /* ---------------------------------------------------------------------- */
 /*  Version 768px

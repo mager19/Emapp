@@ -9,6 +9,13 @@
 		<!-- Styles-->
 		<link rel="shortcut icon" href="img/favicon.png">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+			jQuery('nav.menu-nav, h1').click(function(){$('.nav-movil').css('top','30px')});
+			jQuery('.cerrar').click(function(){$('.nav-movil').css('top','-165px')});
+			});
+		</script>
 	</head>
 
 <body>
@@ -17,8 +24,23 @@
 <header>
 	<div class="container">
 		<div class="row">
+			
+			<nav class="nav-movil">
+				<div class="cerrar">&#215</div>
+				<ul>
+					<li>Profile</li>
+					<li>Question</li>
+					<li>Messages</li>
+					<li>Search</li>
+					<li>Matches</li>
+					<li>Choose your package</li>
+					<li>Edit profile</li>
+					<li>Log out</li>
+				</ul>
+			</nav>
 			<!-- Titulo y subtitulo-->
 			<div class="col-xs-12">
+				<nav class="menu-nav"><a href="#">&#9776</a></nav>
 				<h1>THE EM APP</h1>
 				<h3>On-Demand Life Management</h3>
 			</div>
@@ -41,38 +63,40 @@
 
 		<!-- Contenido -->
 		<h2 class="negro">Select the answer that describe you best</h2>
-		<div class="row">
 		<p>2. How do you interact with information?</p>
-		 
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">A. You’re a wiz! You read it, memorize it and file it away before you’re on to the next amazing subject. </p></div>
+		</div>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">B. You’re intelligent, but you prefer to use your finely tuned emotional intelligence to analyze information.</p></div>
+		</div>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">C. Definitely book smart – you know you can’t possibly learn everything because mastery takes 10,000 hours.</p></div>
-
+		</div>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">D. Slow and steady wins the race.</p></div>
 		</div>
-		<div class="row">
 		<p>3. Quick deadlines make you:</p>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">A. Excited to pull an all-nighter! You work harder and faster when deadlines loom.</p></div>
-		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">B.	A control freak. Trusting someone else to work miracles is like expecting chocolate to make you slim.</p></div>
-		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">C. Do the work. The perks of the job are worth it.</p></div>
-		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">D. Inform your boss that you wont be doing the work unless paid double-time for all overtime.</p></div>
 		</div>
+		<div class="row">
+		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">B.	A control freak. Trusting someone else to work miracles is like expecting chocolate to make you slim.</p></div>
+		</div>
+		<div class="row">
+		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">C. Do the work. The perks of the job are worth it.</p></div>
+		</div>
+		<div class="row">
+		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">D. Inform your boss that you wont be doing the work unless paid double-time for all overtime.</p></div>
+		</div></div>
 		<!-- End Contenido -->
 
 		<a class="button2"href="#">Save</a>

@@ -9,6 +9,13 @@
 		<!-- Styles-->
 		<link rel="shortcut icon" href="img/favicon.png">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+			jQuery('nav.menu-nav, h1').click(function(){$('.nav-movil').css('top','30px')});
+			jQuery('.cerrar').click(function(){$('.nav-movil').css('top','-165px')});
+			});
+		</script>
 	</head>
 
 <body>
@@ -17,8 +24,23 @@
 <header>
 	<div class="container">
 		<div class="row">
+			
+			<nav class="nav-movil">
+				<div class="cerrar">&#215</div>
+				<ul>
+					<li>Profile</li>
+					<li>Question</li>
+					<li>Messages</li>
+					<li>Search</li>
+					<li>Matches</li>
+					<li>Choose your package</li>
+					<li>Edit profile</li>
+					<li>Log out</li>
+				</ul>
+			</nav>
 			<!-- Titulo y subtitulo-->
 			<div class="col-xs-12">
+				<nav class="menu-nav"><a href="#">&#9776</a></nav>
 				<h1>THE EM APP</h1>
 				<h3>On-Demand Life Management</h3>
 			</div>
@@ -41,23 +63,24 @@
 
 		<!-- Contenido -->
 		<h2 class="negro">Select the answer that describe you best</h2>
-		<div class="row">
+		
 		<p>It’s the day of a major event. You’ve spent 4 months prepping and your checklist is complete. It’s 4 hours before the event and you discover that a major accident is holding up the band, the food and many of the guests. Your reaction:</p>
-		 
+		 <div class="row">
 		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">A. You realize the accident is an inconvenience, but recognize that some things are beyond your control. You quickly decide to extend cocktail hour to delay the start time then approach your boss with a game plan and a sincere hope that all parties involved are ok.</p></div>
-		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">B. Your emotions get the best of you and panic sets in.</p></div>
-		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">C. You give yourself 5 minutes to panic then begin implementing plan B. There is a plan B, right?</p></div>
-
-		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">D. No sweat! Plans B through G are waiting in the wings.</p></div>
 		</div>
+		 <div class="row">
+		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">B. Your emotions get the best of you and panic sets in.</p></div>
+		</div>
+		 <div class="row">
+		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">C. You give yourself 5 minutes to panic then begin implementing plan B. There is a plan B, right?</p></div>
+		</div>
+		 <div class="row">
+		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">D. No sweat! Plans B through G are waiting in the wings.</p></div>
+		</div></div>
 		
 		<!-- End Contenido -->
 

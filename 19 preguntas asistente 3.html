@@ -9,6 +9,13 @@
 		<!-- Styles-->
 		<link rel="shortcut icon" href="img/favicon.png">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+			jQuery('nav.menu-nav, h1').click(function(){$('.nav-movil').css('top','30px')});
+			jQuery('.cerrar').click(function(){$('.nav-movil').css('top','-165px')});
+			});
+		</script>
 	</head>
 
 <body>
@@ -17,8 +24,23 @@
 <header>
 	<div class="container">
 		<div class="row">
+			
+			<nav class="nav-movil">
+				<div class="cerrar">&#215</div>
+				<ul>
+					<li>Profile</li>
+					<li>Question</li>
+					<li>Messages</li>
+					<li>Search</li>
+					<li>Matches</li>
+					<li>Choose your package</li>
+					<li>Edit profile</li>
+					<li>Log out</li>
+				</ul>
+			</nav>
 			<!-- Titulo y subtitulo-->
 			<div class="col-xs-12">
+				<nav class="menu-nav"><a href="#">&#9776</a></nav>
 				<h1>THE EM APP</h1>
 				<h3>On-Demand Life Management</h3>
 			</div>
@@ -41,38 +63,41 @@
 
 		<!-- Contenido -->
 		<h2 class="negro">Select the answer that describe you best</h2>
-		<div class="row">
 		<p>4. What is your favorite organizational tool?</p>
-		 
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">A. My phone is attached to my hand. </p></div>
-		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">B. My planner baby! I keep an updated online calendar, but prefer to keep a written copy as well. </p></div>
-		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">C. Can an assistant hire an assistant?</p></div>
-
-		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
-
-		<div class="col-xs-10"><p class="preguntas">D. Define organized… </p></div>
 		</div>
 		<div class="row">
+		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">B. My planner baby! I keep an updated online calendar, but prefer to keep a written copy as well. </p></div>
+		</div>
+		<div class="row">
+		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">C. Can an assistant hire an assistant?</p></div>
+		</div>
+		<div class="row">
+		<div class="col-xs-1"><input type="radio" name="group1" value="Milk"></div>
+		<div class="col-xs-10"><p class="preguntas">D. Define organized… </p></div>
+		</div>
 		<p>5. I communicate: </p>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">A. Verbally – I am direct and prefer to use the telephone or have in-person conversation.</p></div>
+		</div>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
-
 		<div class="col-xs-10"><p class="preguntas">B. Texts/emails are easier then scheduling time to chat and they create a paper trail.</p></div>
-
+		</div>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
 		<div class="col-xs-10"><p class="preguntas">C. Telepathically.</br></br></p></div>
-
+		</div>
+		<div class="row">
 		<div class="col-xs-1"><input type="radio" name="group2" value="Milk"></div>
 		<div class="col-xs-10"><p class="preguntas">D. When I feel like it. Confrontation is not my thing. </p></div>
-
+	</div>
+		
 		
 		</div>
 		<!-- End Contenido -->
