@@ -29,6 +29,20 @@ body{
 
 }
 
+/***Navegacion***/
+nav.menu-nav {
+    background-color: #fff;
+    color: #232323;
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    width: 32px;
+}
+/*** fin Navegacion ***/
+
 h1{
 	
 	color:#fff;
@@ -36,7 +50,7 @@ h1{
 	text-align: center;
 	text-transform: uppercase;
 }
-
+/*
 h1:before{
 
 	content: "\2630";
@@ -48,7 +62,7 @@ h1:before{
     position: absolute;
     top: 25%;
     left: 5%;
-}
+}*/
 
 h2{
 	
@@ -143,7 +157,7 @@ h2.negro {
 }
 input[type="radio"] {
     width: 28px;
-    margin-left: -14px;
+    /*margin-left: -14px;*/
 }
 p.preguntas {
     color: #000;
@@ -171,8 +185,30 @@ col-xs-9.personality {
     padding-top: 2px;
 }
 
+hr {
+    border-top: 1px solid #000;
+}
+.skills input[type="checkbox"] {
+    width: 35px;
+    margin: -10px 0px 5px -16px;
+    height: 61px;
+}
+/***Navegacion***/
+nav.nav-movil {
+    position: absolute;
+    background-color: #35353F;
+    z-index: 10;
+    width: 100%;
+    top: -165px;
 
+}
 
+nav.nav-movil ul {
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+/***fin Navegacio***/
 /****login****/
 .login-campos{
 				margin-top: 2em;
