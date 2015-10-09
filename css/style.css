@@ -207,7 +207,7 @@ nav.nav-movil {
     z-index: 10;
     width: 100%;
     top: -165px;
-
+    padding-right: 2em;
 }
 
 nav.nav-movil ul {
@@ -227,12 +227,61 @@ nav.nav-movil ul {
 }
 body.profile {
     background-image: url(../img/ventana.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .profile h1 {
     font-size: 19px;
     text-transform: capitalize;
     padding-top: 6px;
 }
+
+.img-perfil {
+    text-align: center;
+}
+.profile p {
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+.profile h4 {
+    color: #fff;
+    margin-top: 3px;
+    margin-bottom: auto;
+        margin-left: 15px;
+}
+
+
+.messages h6 {
+    color: #fff;
+    font-size: 9px;
+    text-align: right;
+    margin: 2px;
+    margin: 6px 2px 2px 0;
+}
+img.circular-user {
+    width: 50px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+.matches h4 {
+    padding: 15px 0px;
+    border-bottom: 1px solid;
+}
+.col-xs-10.matches {
+    margin-bottom: 8px;
+}
+
+p.messages {
+       margin-left: 15px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0px;
+        padding-bottom: 1em;
+ }
 /****login****/
 .login-campos{
 				margin-top: 2em;
