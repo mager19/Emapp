@@ -200,25 +200,40 @@ hr {
 .skills input {
     width: 100%;
 }
+.centrar {
+    text-align: right;
+}
+.centrar img {
+    width: 3.4em;
+}
+.imagen-icono:after {
+    clear: none;
+}
 /***Navegacion***/
 nav.nav-movil {
     position: absolute;
     background-color: #35353F;
     z-index: 10;
     width: 100%;
-    top: -165px;
+    top: -460px;
     padding-right: 2em;
+    padding-top: 3em;
 }
 
 nav.nav-movil ul {
     padding-bottom: 20px;
     list-style-type: none;
+    color: #fff;
+}
+nav.nav-movil li {
+    padding-bottom: 2em;
 }
 .cerrar {
     float: right;
     font-size: 35px;
     padding: 5px;
     margin: -20px 10px;
+    color:#fff;
 }
 /***fin Navegacio***/
 .profile {
@@ -282,6 +297,43 @@ p.messages {
     margin-bottom: 0px;
         padding-bottom: 1em;
  }
+img.Search {
+    width: 100%;
+    border: 5px solid #434343;
+}
+.selections {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 20px;
+   /* color: #3CD023;*/
+    padding: 0px;
+}
+.selections.acept{
+    color: #3CD023;
+    
+}
+.selections.cancel{
+    color: #D02323;
+    
+}
+.col-xs-6.selections.acept {
+    border-radius: 50%;
+    border: 3px solid #3CD023;
+    width: 36px;
+    text-align: center;
+     margin: 20px 18%;
+
+}
+.col-xs-6.selections.cancel {
+    border-radius: 50%;
+    border: 3px solid #D02323;
+    width: 36px;
+    text-align: center;
+     margin: 20px 18%;
+
+}
+
 /****login****/
 .login-campos{
 				margin-top: 2em;
@@ -352,6 +404,42 @@ p.messages {
 		font-weight: 300;
 		
 	}
+
+	.login-button ul {
+
+		margin-left: -5em;
+		margin-top: 20px;
+	}
+
+	.login-button ul li {
+
+		display: inline-block;
+		margin-left: 2em;
+	}
+
+	.login-button ul li a{
+
+		background-color: #03ae7b;
+	    color: #fff;
+	    font-weight: 300;
+	    margin-left: 5px;
+	    margin-bottom: 2em;
+	    padding: 0.8em 2em;
+	    text-align: center;
+	    text-decoration: none;
+	}
+
+	#forgot-password{
+
+		width: 100%;
+	}
+
+	#backbutton{
+
+		padding: 0.8em 3em;
+	}
+
+
 	#home{
 		padding:10em 0;
 	}
@@ -361,11 +449,13 @@ p.messages {
 #contenido-icons {
 	
 	margin-top: 2em;
+	    text-align: center;
+	    padding-left: 0px;
 }
 #contenido-icons li{
 	display: inline-block;
 	list-style: none;
-	padding-right: 3.8em;
+	padding-right: 3em;
 	text-decoration: none;
 }
 #contenido-registro{
@@ -393,7 +483,6 @@ p.messages {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
 
 /*Media Queries */
 
